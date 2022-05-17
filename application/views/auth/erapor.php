@@ -20,7 +20,12 @@
             </ul>
         </div>
     </div>
-
+    <div class="container">
+        <div class="section">Ranking</div>
+        <div class="section-item">
+            <h3>Ahmad</h3>
+        </div>
+    </div>
     <div class="contents">
         <div class="contents-item">
             <img src="assets/img/qr-code.svg">

@@ -1,7 +1,17 @@
-html, body,
-ul, ol,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
+html,
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
   margin: 0;
   padding: 0;
 }
@@ -9,85 +19,104 @@ form, input, div {
 body {
   font-family: "Avenir Next";
 }
+
 li {
-    list-style: none;
-    float: left;
-    font-size: 22px;
-    width: 8%;
-    margin-left: 80px;
-  }
-.header{
-    background-color: #26d0c9;
-    height: 90px;
-  }
-  
-  
-.header-logo{
-    float: left;
-    font-size: 36px;
-    padding: 20px 40px 20px 40px;
-    color: #fff;
-  }
-.header-list{
-    color: #fff;
-    padding-bottom: 33px;
-    padding-top: 33px;
-  }
+  list-style: none;
+  float: left;
+  font-size: 22px;
+  width: 8%;
+  margin-left: 80px;
+}
+
+.header {
+  background-color: #26d0c9;
+  height: 90px;
+}
+
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px 20px 40px;
+  color: #fff;
+}
+
+.header-list {
+  color: #fff;
+  padding-bottom: 33px;
+  padding-top: 33px;
+}
+
+.container{
+  margin: 25px;
+}
 .contents {
-    height: 500px;
-    margin-top: 0px;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 100px;
-  }
-  .contents-item {
-    float: left;
-    padding-top: 25px;
-    margin-right: 40px;
-  }
-.contents-item img{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 150px;
-        margin-bottom: 25px;
-      }
+  height: 500px;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+.contents-item {
+  float: left;
+  padding-top: 25px;
+  margin-right: 40px;
+}
+
+.contents-item img {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+
 .btn {
-        padding: 12px 24px;
-        color: rgb(0, 0, 0);
-        display: inline-block;
-        opacity: 0.8;
-        border-radius: 4px;
-      }
-      
-      .btn:hover {
-        opacity: 1;
-      }
-      
+  padding: 12px 24px;
+  margin-left: 180px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
 .message {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
-  }
-.footer {
-    background-color: #2f5167;
-    color: #fff;
-    height: 120px;
-    padding: 40px;
 }
-  
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
 .footer-logo {
-    float: left;
-    font-size: 32px;
-  }
-  
+  float: left;
+  font-size: 32px;
+}
+
 .footer-list {
-    float: right;
-  }
-  
+  float: right;
+}
+
 .footer-list li {
-    padding-bottom: 20px;
-    padding-left: 100px;
-    width: 2%;
-  }
+  padding-bottom: 20px;
+  padding-left: 100px;
+  width: 2%;
+}
